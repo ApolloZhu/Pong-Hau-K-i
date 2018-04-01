@@ -14,6 +14,8 @@
 		520D15D22070D0A800F9DF9A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D15D12070D0A800F9DF9A /* Header.swift */; };
 		52735EF02070DFDB001A7B29 /* PHKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52735EEF2070DFDB001A7B29 /* PHKModel.swift */; };
 		52735EF22070E39B001A7B29 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52735EF12070E39B001A7B29 /* Animations.swift */; };
+		52735EF52070EB6F001A7B29 /* PHKModel + GKGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52735EF42070EB6F001A7B29 /* PHKModel + GKGameModel.swift */; };
+		52735EF72070EC57001A7B29 /* PHKModel + GKStrategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52735EF62070EC57001A7B29 /* PHKModel + GKStrategist.swift */; };
 		52A35B9B2070D14E00F21E09 /* PHKMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8C2070D13C00F21E09 /* PHKMove.swift */; };
 		52A35B9C2070D14E00F21E09 /* GameIdelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8D2070D13D00F21E09 /* GameIdelState.swift */; };
 		52A35B9D2070D14E00F21E09 /* PHKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8E2070D13E00F21E09 /* PHKScene.swift */; };
@@ -24,7 +26,7 @@
 		52A35BA22070D14E00F21E09 /* PHKPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B932070D14400F21E09 /* PHKPlayer.swift */; };
 		52A35BA32070D14E00F21E09 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B942070D14600F21E09 /* GameState.swift */; };
 		52A35BA42070D14E00F21E09 /* GameInvalidMoveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */; };
-		52A35BA62070D14E00F21E09 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B972070D14A00F21E09 /* Colors.swift */; };
+		52A35BA62070D14E00F21E09 /* Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B972070D14A00F21E09 /* Customizations.swift */; };
 		52A35BA72070D14E00F21E09 /* GameMoveValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */; };
 		52A35BA82070D14E00F21E09 /* GamePieceSelectedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */; };
 		52A35BA92070D14E00F21E09 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B9A2070D14C00F21E09 /* Dimensions.swift */; };
@@ -41,6 +43,8 @@
 		520D15D12070D0A800F9DF9A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		52735EEF2070DFDB001A7B29 /* PHKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHKModel.swift; sourceTree = "<group>"; };
 		52735EF12070E39B001A7B29 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		52735EF42070EB6F001A7B29 /* PHKModel + GKGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHKModel + GKGameModel.swift"; sourceTree = "<group>"; };
+		52735EF62070EC57001A7B29 /* PHKModel + GKStrategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHKModel + GKStrategist.swift"; sourceTree = "<group>"; };
 		52A35B8C2070D13C00F21E09 /* PHKMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKMove.swift; sourceTree = "<group>"; };
 		52A35B8D2070D13D00F21E09 /* GameIdelState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameIdelState.swift; sourceTree = "<group>"; };
 		52A35B8E2070D13E00F21E09 /* PHKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKScene.swift; sourceTree = "<group>"; };
@@ -51,7 +55,7 @@
 		52A35B932070D14400F21E09 /* PHKPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKPlayer.swift; sourceTree = "<group>"; };
 		52A35B942070D14600F21E09 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInvalidMoveState.swift; sourceTree = "<group>"; };
-		52A35B972070D14A00F21E09 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		52A35B972070D14A00F21E09 /* Customizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customizations.swift; sourceTree = "<group>"; };
 		52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMoveValidationState.swift; sourceTree = "<group>"; };
 		52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePieceSelectedState.swift; sourceTree = "<group>"; };
 		52A35B9A2070D14C00F21E09 /* Dimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				52A35B8C2070D13C00F21E09 /* PHKMove.swift */,
 				52A35B932070D14400F21E09 /* PHKPlayer.swift */,
 				52735EEF2070DFDB001A7B29 /* PHKModel.swift */,
+				52735EF42070EB6F001A7B29 /* PHKModel + GKGameModel.swift */,
+				52735EF62070EC57001A7B29 /* PHKModel + GKStrategist.swift */,
 			);
 			path = "Game Model";
 			sourceTree = "<group>";
@@ -125,9 +131,9 @@
 		52A35BAA2070D16000F21E09 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				520D15D12070D0A800F9DF9A /* Header.swift */,
 				52735EEE2070D7D2001A7B29 /* Game Model */,
 				52A35BAD2070D70B00F21E09 /* Game State */,
-				520D15D12070D0A800F9DF9A /* Header.swift */,
 				52A35BAC2070D6C500F21E09 /* Graphics */,
 				52A35BAB2070D66C00F21E09 /* Extensions */,
 			);
@@ -139,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				52735EF12070E39B001A7B29 /* Animations.swift */,
-				52A35B972070D14A00F21E09 /* Colors.swift */,
+				52A35B972070D14A00F21E09 /* Customizations.swift */,
 				52A35B9A2070D14C00F21E09 /* Dimensions.swift */,
 			);
 			path = Extensions;
@@ -148,8 +154,8 @@
 		52A35BAC2070D6C500F21E09 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				52A35B902070D14100F21E09 /* PHKPiece.swift */,
 				52A35B8E2070D13E00F21E09 /* PHKScene.swift */,
+				52A35B902070D14100F21E09 /* PHKPiece.swift */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -234,7 +240,9 @@
 			files = (
 				52A35BA82070D14E00F21E09 /* GamePieceSelectedState.swift in Sources */,
 				52A35BA22070D14E00F21E09 /* PHKPlayer.swift in Sources */,
-				52A35BA62070D14E00F21E09 /* Colors.swift in Sources */,
+				52735EF72070EC57001A7B29 /* PHKModel + GKStrategist.swift in Sources */,
+				52A35BA62070D14E00F21E09 /* Customizations.swift in Sources */,
+				52735EF52070EB6F001A7B29 /* PHKModel + GKGameModel.swift in Sources */,
 				52A35B9E2070D14E00F21E09 /* GameNotStartedState.swift in Sources */,
 				52A35B9C2070D14E00F21E09 /* GameIdelState.swift in Sources */,
 				52735EF02070DFDB001A7B29 /* PHKModel.swift in Sources */,

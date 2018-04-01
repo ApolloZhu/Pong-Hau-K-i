@@ -6,11 +6,16 @@ public class GamePieceSelectedState: GameState {
     }
 
     public override func didEnter(from previousState: GKState?) {
+        scene?.buttons.forEach {
+            $0.removeAllActions()
+            $0.run(SKAction.resetPiece(in: 0))
+        }
         switch previousState {
         case is GameNotStartedState:
-            break
+            model!.currentPlayer = model!.board[model!.selected]
+            fallthrough
         case is GameIdelState:
-            break
+            stateMachine?.enter(GameMoveValidationState.self)
         default:
             return
         }

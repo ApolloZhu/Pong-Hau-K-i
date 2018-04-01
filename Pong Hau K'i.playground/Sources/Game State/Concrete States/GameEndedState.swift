@@ -2,7 +2,13 @@ import GameplayKit
 
 public class GameEndedState: GameState {
     override public func isValidNextState(_ stateClass: AnyClass) -> Bool {
-        return stateClass is GameNotStartedState.Type
+        switch stateClass {
+        case is GameNotStartedState.Type,
+             is GameEndedState.Type:
+            return true
+        default:
+            return false
+        }
     }
 
     public override func didEnter(from previousState: GKState?) {
@@ -13,15 +19,12 @@ public class GameEndedState: GameState {
             }
             fallthrough
         case is GameEndedState:
-            // TODO: Present Confirmation
-            let alert = NSAlert.init()
+            let alert = NSAlert()
+            alert.addButton(withTitle: "OK")
+            alert.addButton(withTitle: "Cancel")
             alert.messageText = "Do you want to start another game?"
-            alert.showsSuppressionButton = true
-            switch alert.runModal() {
-            case NSApplication.ModalResponse.OK:
+            if alert.runModal() == .alertFirstButtonReturn {
                 stateMachine?.enter(GameNotStartedState.self)
-            default:
-                return
             }
         default:
             return

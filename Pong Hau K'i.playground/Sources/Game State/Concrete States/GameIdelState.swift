@@ -6,12 +6,12 @@ public class GameIdelState: GameState {
     }
 
     public override func didEnter(from previousState: GKState?) {
-        switch previousState {
-        case is GameSwapPieceState,
-             is GameInvalidMoveState:
-            break
-        default:
-            return
+        guard let model = model else { return }
+        scene?.buttons.enumerated().forEach { i, btn in
+            if model.board[i] == model.currentPlayer,
+                model.isEmptySpotAccessible(from: i) {
+                btn.run(.hint)
+            }
         }
     }
 }

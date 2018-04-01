@@ -13,9 +13,19 @@ public class PHKPlayer: NSObject, GKGameModelPlayer {
         self.fill = fill
         self.stroke = stroke
     }
-    public static let p1 = PHKPlayer("Red", id: 1, fill: .player1)
-    public static let p2 = PHKPlayer("Green", id: 2, fill: .player2)
+}
+extension PHKPlayer {
+    public static let p1 = PHKPlayer(.player1Name, id: 1, fill: .player1)
+    public static let p2 = PHKPlayer(.player2Name, id: 2, fill: .player2)
     public static let no = PHKPlayer(
         "Nobody", id: -1, fill: .white, stroke: .strokeDark
     )
+
+    public var opponent: PHKPlayer {
+        switch self {
+        case .p1: return .p2
+        case .p2: return .p1
+        default : return .no
+        }
+    }
 }

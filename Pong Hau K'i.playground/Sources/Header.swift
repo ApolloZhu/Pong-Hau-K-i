@@ -1,9 +1,13 @@
-import SpriteKit
 import AppKit
+import GameplayKit
+import SpriteKit
 
-public func alert(_ string: String) {
+public func alert(_ message: String, _ info: String? = nil) {
     let alert = NSAlert()
-    alert.messageText = string
+    alert.messageText = message
+    if let info = info {
+        alert.informativeText = info
+    }
     alert.runModal()
 }
 
@@ -11,8 +15,9 @@ public func alert(_ string: String) {
 import PlaygroundSupport
 #endif
 
-public func newGame() {
+public func newGame(ai strategist: GKStrategist? = nil) {
     let scene = PHKScene(size: .standard)
+    strategist?.gameModel = scene.model
     #if canImport(PlaygroundSupport)
     let sceneView = SKView(frame: .standard)
     sceneView.presentScene(scene)
