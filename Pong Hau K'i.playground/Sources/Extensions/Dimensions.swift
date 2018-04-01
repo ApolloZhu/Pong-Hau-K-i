@@ -1,9 +1,16 @@
 import CoreGraphics
 import Foundation
 
+extension CGFloat {
+    static let r: CGFloat = 60
+}
+
 extension CGSize {
     static let standard = CGSize(
         width: 480, height: 640
+    )
+    static let piece = CGSize(
+        width: .r, height: .r
     )
 }
 
@@ -13,9 +20,6 @@ extension CGRect {
     )
 }
 
-extension CGFloat {
-    static let r: CGFloat = 60
-}
 
 let cgCenters = [
     CGPoint(x: 80, y: 560),

@@ -18,6 +18,6 @@ public func newGame() {
     #if canImport(PlaygroundSupport)
     PlaygroundPage.current.liveView = sceneView
     #else
-    let view = (NSApplication.shared.keyWindow?.contentViewController as? ViewController)?.skView.presentScene(scene, transition: SKTransition.push(with: .up, duration: 1))
+    (NSApplication.shared.keyWindow?.contentViewController as? ViewController)?.skView.presentScene(scene, transition: SKTransition.push(with: .up, duration: 1))
     #endif
 }

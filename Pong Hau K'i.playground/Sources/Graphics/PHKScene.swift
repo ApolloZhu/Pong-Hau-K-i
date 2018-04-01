@@ -3,15 +3,18 @@ import GameplayKit
 
 public class PHKScene: SKScene {
     lazy var stateMachine = GKStateMachine(states: [
-        GameNotStartedState(),
-        GamePlayingState(model),
-        GameEndedState(model),
-        GameStartNewState()
-        ])
+        GameNotStartedState(self),
+        GamePieceSelectedState(self),
+        GameMoveValidationState(self),
+        GameInvalidMoveState(self),
+        GameSwapPieceState(self),
+        GameIdelState(self),
+        GameEndedState(self)
+    ])
 
     public let model = PHKModel()
     
-    private lazy var buttons: [SKShapeNode] = {
+    private(set) lazy var buttons: [SKShapeNode] = {
         return (0..<5).map {
             let node = PHKPiece(circleOfRadius: .r)
             node.name = "\($0)"
@@ -23,7 +26,7 @@ public class PHKScene: SKScene {
         }
     }()
     
-    private lazy var lines: SKShapeNode = {
+    private(set) lazy var lines: SKShapeNode = {
         var points = [0,4,1,0,3,1].map { cgCenters[$0] }
         let lines = SKShapeNode(
             points: &points, count: points.count
@@ -50,14 +53,14 @@ public class PHKScene: SKScene {
     override public func mouseDown(with event: NSEvent) {
         switch stateMachine.currentState {
         case is GameNotStartedState:
-            stateMachine.enter(GamePlayingState.self)
-        case is GamePlayingState:
+            stateMachine.enter(GameIdelState.self)
+        case is GameIdelState:
             let point = event.location(in: self)
             for node in nodes(at: point) {
                 if let piece = node as? PHKPiece {
                     selectedID = piece.id
                     stateMachine.enter(
-                        GamePlayingState.self
+                        GameIdelState.self
                     )
                     return
                 }
