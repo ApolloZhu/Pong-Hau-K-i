@@ -5,7 +5,6 @@
         <page name='Game'/>
         <page name='Monte Carlo'/>
         <page name='Minmax'/>
-        <page name='And your own?'/>
         <page name='LICENSE'/>
     </pages>
 </playground>

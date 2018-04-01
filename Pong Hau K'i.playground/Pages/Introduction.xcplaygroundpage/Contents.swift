@@ -83,5 +83,6 @@
  It’s now 1020 lines of code.
  
  Just a fun fact, the direct translate of its Chinese name is "Underwear Chess." Why? Look at the board!
- //: [Let's get started!](@next)
+ 
+ [Let's get started!](@next)
  */

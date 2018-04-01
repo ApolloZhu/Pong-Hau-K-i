@@ -1,11 +1,8 @@
 > In what ways have you considered sharing your coding knowledge and enthusiasm for computer science with others?
 
-Immediately after the WWDC scholarship info was released this year, I studied the terms and requirements carefully. 
+Immediately after the WWDC Scholarship info was released this year, I studied the terms and requirements carefully. I have learned a lot during the WWDC last year, therefore I want to make sure all other students I can reach out to know about this fantastic opportunity. While making a Keynote introducing the requirements and my own experience last year for the scholarship, I emailed the CS teacher at my school, begging for a chance to present to all the CS classes. Initially, he was a little reluctant since he have never heard about this before, but I didn't give up. I send more emails with long paragraphs explaining how this scholarship is different, and how students can learn and grow as computer scientists by applying to this and attending the conference. Eventually, I got 15 minutes at the start of each class. To fully utilize the time, I practiced over and over again that night, adding and removing features of Swift and Playground I should cover…. And it worthed it. You could not tell how accomplished I felt when hands raised, asking questions and saying they want to give it a try.
 
-
-
-
-
+To ensure they can always refer to what I have mentioned, I started to write a blog post after the study session for WWDC that day. I went into more details about how to get started and learn Swift, since the most of them have never programmed for iOS/macOS before, differentiated frameworks they should use for different purposes, as well as the advantages of iPad Swift Playgrounds versus Xcode Playground.
 
 When I was learning from Apple engineers last year at WWDC, I was elected as the president of the computer science club at Oakton High School. I asked my self, how could I encourage my classmates and club members to try for this scholarship next year? 
 

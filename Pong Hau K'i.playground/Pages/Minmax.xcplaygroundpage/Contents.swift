@@ -1,4 +1,5 @@
 //: [Previous: Monte Carlo strategy](@previous)
+
 //: This is where AI strategies are implemented:
 import GameplayKit
 
