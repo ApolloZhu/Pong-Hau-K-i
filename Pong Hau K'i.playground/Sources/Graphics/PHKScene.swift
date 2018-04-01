@@ -14,7 +14,6 @@ public class PHKScene: SKScene {
 
     public private(set) lazy var model: PHKModel = {
         ai?.gameModel = $0
-        print("wow, AI")
         return $0
     }(PHKModel())
     

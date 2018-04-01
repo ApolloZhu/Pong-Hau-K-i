@@ -14,11 +14,9 @@ public class GameNotStartedState: GameState {
                 guard model?.board[i] != .no else { return }
                 btn.run(.hint)
             }
-            print(ai)
-            if ai != nil && aiGoesFirst {
-                model?.currentPlayer = .p1
-                runAI()
-            }
+            guard ai != nil && aiGoesFirst else { return }
+            model?.currentPlayer = .p1
+            runAI()
         }
     }
 }

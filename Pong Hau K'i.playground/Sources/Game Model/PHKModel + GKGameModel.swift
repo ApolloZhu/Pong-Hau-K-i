@@ -9,7 +9,6 @@ extension PHKModel: GKGameModel {
                 moves.append(PHKMove(from: slot))
             }
         }
-        print(moves)
         return moves.isEmpty ? nil : moves
     }
 

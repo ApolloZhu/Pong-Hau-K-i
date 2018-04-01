@@ -12,7 +12,6 @@ extension GameState {
         }
         guard let selected = move as? PHKMove else { return }
         model.selected = selected.slot
-        print(model.currentPlayer, selected, model.selected, model.board)
         stateMachine?.enter(GamePieceSelectedState.self)
     }
 }

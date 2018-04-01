@@ -15,7 +15,7 @@ public class GameInvalidMoveState: GameState {
         case .empty?:
             message = "You selected the empty spot"
         case .unowned?:
-            message = "You can't your opponent's piece"
+            message = "You can't move your opponent's piece"
         case .notMovable?:
             message = "It can't be moved to the empty spot"
         default: message = "Something went wrong"

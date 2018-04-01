@@ -1,12 +1,29 @@
 > In what ways have you considered sharing your coding knowledge and enthusiasm for computer science with others?
 
-When I was learning from Apple engineers last year at WWDC, I was elected as the president of the computer science club at Oakton High School. This year, I tried many thing new to include a wider range of audiences.
+Immediately after the WWDC scholarship info was released this year, I studied the terms and requirements carefully. 
+
+
+
+
+
+
+When I was learning from Apple engineers last year at WWDC, I was elected as the president of the computer science club at Oakton High School. I asked my self, how could I encourage my classmates and club members to try for this scholarship next year? 
+
+
+
+
+
+This year, I tried many thing new to include a wider range of audiences.
+
+
+
+I organized the first Hackathon at Oakton, inviting high school students of all levels.
 
 When the day WWDC scholarship info was made available, I immediately contacted the CS teacher at my school to explain why this is a wonderful opportunity to all students and requested to share this info and my own experience with all the CS classes. I spent that night preparing for the presentation, and wrote another detailed blog post to ensure other students can always refer to it.
 
 With heavy workload than I estimated, finding time to create new contents became my hardest challenge.
 
-Then I wrote a brief summary of what his scholarship is about and posted on my blog to share with my classmates, as well as a Chinese version to share on bilibili, the Z generation 
+Then I wrote a brief summary of what his scholarship is about and posted on my blog to share with my classmates, as well as a Chinese version to share on bilibili, the Generation Z audiences 
 
 We could learn from each other, therefore spark more intriguing ideas.
 
@@ -19,3 +36,12 @@ I attend all Playground sessions and labs to best u
 I could not forgot... I’m still trying to translate, however, the heavy work load force me to 
 
 One could not imagine how excited I was when one girl who never had any programming experience before demonstrated a huge interest in learning Swift and start to write her first Playground. 
+
+May the code be with you.
+
+
+
+
+
+I sneaked into the robotics club in my elementary school, I begged my teachers to join the programming contest study group in my middle school, for I always find it amazing to be able to write computer programs. Despite that none of my family members have STEM-related jobs, I have been on my own quest for learning things empower me to build software of true usefulness. It is like a miracle for me to start learning Swift when it was still a new programming language released by Apple a few month before. I have only the official document to rely on, but my belief in it drove me to look up my English dictionary for technical terms and concepts that a Chinese middle schooler has no clue what they mean. It is then did I start to observe things around me more closely, trying to find practical issues to tackle. One day, I found it—the need to practice for the learner's permit test in Virginia. I was watching Stanford's Developing iOS Apps with Swift, so I applied that knowledge in coding this app. I spent hours designing the best way to transfer data between different parts of the program under the MVC design pattern. When I realized many people only have Android devices, from scratch, I learned another programming language called Kotlin, as well as many totally different components of an Android app. Although it is not perfect, it is my achievement. My happiest moment is when my friends, among 4800 users, told me they get almost perfect on the exam. The open course gets me into this, and I want to further explore my course. I'm looking forward to studying at Stanford and learning to write more efficient implementations by taking this summer session.
+
