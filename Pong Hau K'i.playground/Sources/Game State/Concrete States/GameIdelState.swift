@@ -13,5 +13,8 @@ public class GameIdelState: GameState {
                 btn.run(.hint)
             }
         }
+        if model.isAI(model.currentPlayer) {
+            runAI()
+        }
     }
 }

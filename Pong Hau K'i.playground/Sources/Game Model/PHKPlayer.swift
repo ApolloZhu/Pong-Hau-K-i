@@ -13,7 +13,12 @@ public class PHKPlayer: NSObject, GKGameModelPlayer {
         self.fill = fill
         self.stroke = stroke
     }
+
+    override public var description: String {
+        return name
+    }
 }
+
 extension PHKPlayer {
     public static let p1 = PHKPlayer(.player1Name, id: 1, fill: .player1)
     public static let p2 = PHKPlayer(.player2Name, id: 2, fill: .player2)

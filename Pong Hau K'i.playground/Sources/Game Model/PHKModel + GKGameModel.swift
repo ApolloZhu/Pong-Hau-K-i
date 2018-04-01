@@ -9,12 +9,13 @@ extension PHKModel: GKGameModel {
                 moves.append(PHKMove(from: slot))
             }
         }
+        print(moves)
         return moves.isEmpty ? nil : moves
     }
 
     public func apply(_ gameModelUpdate: GKGameModelUpdate) {
         guard let move = gameModelUpdate as? PHKMove else { return }
-        board.swapAt(emptySpot, move.value)
+        board.swapAt(emptySpot, move.slot)
         currentPlayer = currentPlayer.opponent
     }
 
@@ -37,6 +38,7 @@ extension PHKModel: GKGameModel {
         currentPlayer = new.currentPlayer
         board = new.board
         selected = new.selected
+        error = new.error
     }
 
     public func copy(with zone: NSZone? = nil) -> Any {

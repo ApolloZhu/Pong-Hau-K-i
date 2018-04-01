@@ -18,16 +18,18 @@ extension PHKModel {
 
     public func score(for player: GKGameModelPlayer) -> Int {
         guard let this = player as? PHKPlayer else { return 0 }
-        if isWin(for: this) { return 10 }
-        if isLoss(for: this) { return -10 }
+        if isWin(for: this) { print("win");return 10 }
+        if isLoss(for: this) { print("lose");return -10 }
         let other = this.opponent
         if board[2] == .no {
-            return this == currentPlayer ? 8 : 2
+            print("no")
+            return this == currentPlayer ? 8 : -9
         }
         if other == currentPlayer && board[2] == this
             && (board[0] == other && board[3] == other
                 || board[1] == other && board[4] == other) {
+            print("meow")
             return 5
-        } else { return 0 }
+        } else { print("0");return 0 }
     }
 }

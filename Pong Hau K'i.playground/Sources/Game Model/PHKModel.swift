@@ -1,15 +1,17 @@
 import GameplayKit
 
 public class PHKModel: NSObject {
-    public var currentPlayer: PHKPlayer = .no
+    public var ai: (strategist: GKStrategist, goFirst: Bool)? {
+        didSet {
+            ai?.strategist.gameModel = self
+        }
+    }
 
     public var board: [PHKPlayer] = [.p1, .p1, .no, .p2, .p2]
 
+    public var currentPlayer: PHKPlayer = .no
     public var selected = 2
-
     public var error: PHKInvalidMove?
-
-    public var ai: GKStrategist?
 }
 
 extension PHKModel {
@@ -27,5 +29,10 @@ extension PHKModel {
     func isEmptySpotAccessible(from place: Int) -> Bool {
         return (emptySpot + place) != 7
             && abs(emptySpot - place) != 3
+    }
+
+    func isAI(_ player: PHKPlayer) -> Bool {
+        return player == .p1 && ai?.goFirst == true
+            || player == .p2 && ai?.goFirst == false
     }
 }
