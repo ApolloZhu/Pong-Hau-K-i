@@ -2,7 +2,7 @@ import GameplayKit
 
 public class PHKModel: NSObject, GKGameModel {
     public var players: [GKGameModelPlayer]?
-        = [PHKPlayer.no, PHKPlayer.p1, PHKPlayer.p2]
+        = [PHKPlayer.p1, PHKPlayer.p2]
 
     public var activePlayer: GKGameModelPlayer? {
         get {

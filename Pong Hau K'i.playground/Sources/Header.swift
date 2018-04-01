@@ -12,10 +12,10 @@ import PlaygroundSupport
 #endif
 
 public func newGame() {
-    let sceneView = SKView(frame: .standard)
     let scene = PHKScene(size: .standard)
-    sceneView.presentScene(scene)
     #if canImport(PlaygroundSupport)
+    let sceneView = SKView(frame: .standard)
+    sceneView.presentScene(scene)
     PlaygroundPage.current.liveView = sceneView
     #else
     (NSApplication.shared.keyWindow?.contentViewController as? ViewController)?.skView.presentScene(scene, transition: SKTransition.push(with: .up, duration: 1))

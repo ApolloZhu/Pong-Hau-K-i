@@ -108,11 +108,25 @@
 			path = "Game Model";
 			sourceTree = "<group>";
 		};
+		52735EF32070E7DD001A7B29 /* Concrete States */ = {
+			isa = PBXGroup;
+			children = (
+				52A35B8F2070D14000F21E09 /* GameNotStartedState.swift */,
+				52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */,
+				52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */,
+				52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */,
+				52A35B912070D14200F21E09 /* GameSwapPieceState.swift */,
+				52A35B8D2070D13D00F21E09 /* GameIdelState.swift */,
+				52A35B922070D14300F21E09 /* GameEndedState.swift */,
+			);
+			path = "Concrete States";
+			sourceTree = "<group>";
+		};
 		52A35BAA2070D16000F21E09 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				52735EEE2070D7D2001A7B29 /* Game Model */,
-				52A35BAD2070D70B00F21E09 /* Game States */,
+				52A35BAD2070D70B00F21E09 /* Game State */,
 				520D15D12070D0A800F9DF9A /* Header.swift */,
 				52A35BAC2070D6C500F21E09 /* Graphics */,
 				52A35BAB2070D66C00F21E09 /* Extensions */,
@@ -140,19 +154,13 @@
 			path = Graphics;
 			sourceTree = "<group>";
 		};
-		52A35BAD2070D70B00F21E09 /* Game States */ = {
+		52A35BAD2070D70B00F21E09 /* Game State */ = {
 			isa = PBXGroup;
 			children = (
 				52A35B942070D14600F21E09 /* GameState.swift */,
-				52A35B8F2070D14000F21E09 /* GameNotStartedState.swift */,
-				52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */,
-				52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */,
-				52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */,
-				52A35B912070D14200F21E09 /* GameSwapPieceState.swift */,
-				52A35B8D2070D13D00F21E09 /* GameIdelState.swift */,
-				52A35B922070D14300F21E09 /* GameEndedState.swift */,
+				52735EF32070E7DD001A7B29 /* Concrete States */,
 			);
-			path = "Game States";
+			path = "Game State";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
