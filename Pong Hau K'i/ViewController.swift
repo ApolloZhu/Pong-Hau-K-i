@@ -7,7 +7,6 @@
 
 import Cocoa
 import SpriteKit
-import GameplayKit
 
 class ViewController: NSViewController {
 
@@ -17,7 +16,6 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         let scene = PHKScene(size: .standard)
         skView.presentScene(scene)
-        
         skView.ignoresSiblingOrder = true
         skView.showsFPS = true
         skView.showsNodeCount = true

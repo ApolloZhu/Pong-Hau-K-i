@@ -1,4 +1,5 @@
 import CoreGraphics
+import Foundation
 
 extension CGSize {
     static let standard = CGSize(

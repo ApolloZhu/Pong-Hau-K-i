@@ -96,14 +96,49 @@
 			path = "Pong Hau K'i";
 			sourceTree = "<group>";
 		};
+		52735EEE2070D7D2001A7B29 /* Game Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A35B8C2070D13C00F21E09 /* PHKMove.swift */,
+				52A35B932070D14400F21E09 /* PHKPlayer.swift */,
+			);
+			path = "Game Model";
+			sourceTree = "<group>";
+		};
 		52A35BAA2070D16000F21E09 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				52735EEE2070D7D2001A7B29 /* Game Model */,
+				52A35BAD2070D70B00F21E09 /* Game States */,
 				520D15D12070D0A800F9DF9A /* Header.swift */,
+				52A35BAC2070D6C500F21E09 /* Graphics */,
+				52A35BAB2070D66C00F21E09 /* Extensions */,
+			);
+			name = Sources;
+			path = "Pong Hau K'i.playground/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		52A35BAB2070D66C00F21E09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				52A35B972070D14A00F21E09 /* Colors.swift */,
 				52A35B9A2070D14C00F21E09 /* Dimensions.swift */,
-				52A35B8C2070D13C00F21E09 /* PHKMove.swift */,
-				52A35B932070D14400F21E09 /* PHKPlayer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52A35BAC2070D6C500F21E09 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				52A35B902070D14100F21E09 /* PHKPiece.swift */,
+				52A35B8E2070D13E00F21E09 /* PHKScene.swift */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		52A35BAD2070D70B00F21E09 /* Game States */ = {
+			isa = PBXGroup;
+			children = (
 				52A35B922070D14300F21E09 /* GameEndedState.swift */,
 				52A35B8D2070D13D00F21E09 /* GameIdelState.swift */,
 				52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */,
@@ -113,10 +148,8 @@
 				52A35B962070D14900F21E09 /* GameStartNewState.swift */,
 				52A35B942070D14600F21E09 /* GameState.swift */,
 				52A35B912070D14200F21E09 /* GameSwapPieceState.swift */,
-				52A35B902070D14100F21E09 /* PHKPiece.swift */,
-				52A35B8E2070D13E00F21E09 /* PHKScene.swift */,
 			);
-			name = Sources;
+			path = "Game States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

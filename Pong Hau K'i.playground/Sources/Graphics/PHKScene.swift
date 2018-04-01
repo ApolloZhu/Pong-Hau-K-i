@@ -1,4 +1,5 @@
 import SpriteKit
+import GameplayKit
 
 public class PHKScene: SKScene {
     lazy var stateMachine = GKStateMachine(states: [
@@ -33,10 +34,12 @@ public class PHKScene: SKScene {
         lines.strokeColor = .white
         return lines
     }()
-    
+
     override public func didMove(to view: SKView) {
         super.didMove(to: view)
+        scaleMode = .aspectFit
         backgroundColor = .background
+        guard lines.parent == nil else { return }
         addChild(lines)
         buttons.forEach { addChild($0) }
         stateMachine.enter(GameNotStartedState.self)

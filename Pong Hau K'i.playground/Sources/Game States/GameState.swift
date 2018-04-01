@@ -1,3 +1,5 @@
+import GameplayKit
+
 public class GameState: GKState {
     public weak var model: PHKModel?
 

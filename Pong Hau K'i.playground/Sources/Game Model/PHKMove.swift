@@ -1,3 +1,5 @@
+import GameplayKit
+
 public class PHKMove: NSObject, GKGameModelUpdate {
     /// The id of the place to move to.
     public var value: Int = -1
