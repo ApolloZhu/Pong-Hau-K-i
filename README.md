@@ -4,6 +4,10 @@ TL;DR, I imported: AppKit, CoreGraphics, GameplayKit, PlaygroundSupport, and Spr
 
 
 
+Although it is not perfect, it is my achievement.
+
+
+
 The main objective for this Playground is to explore the GamePlayKit -- state machines, AI strategies.
 
 This is actually one of the few times I'm using AppKit.
