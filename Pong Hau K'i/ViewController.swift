@@ -15,7 +15,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let scene = PHKScene(size: .standard)
-        // scene.model.ai = (strategist: GKMinmaxStrategist(), goFirst: true)
+        GK
         skView.presentScene(scene)
         skView.ignoresSiblingOrder = true
         skView.showsFPS = true

@@ -15,15 +15,16 @@ public func alert(_ message: String, _ info: String? = nil) {
 import PlaygroundSupport
 #endif
 
-public func newGame(ai: (strategist: GKStrategist, goFirst: Bool)? = nil) {
+public var ai: GKStrategist?
+public var aiGoesFirst: Bool = true
+
+public func newGame() {
     let scene = PHKScene(size: .standard)
-    scene.model.ai = ai
     #if canImport(PlaygroundSupport)
     let sceneView = SKView(frame: .standard)
     sceneView.presentScene(scene)
     PlaygroundPage.current.liveView = sceneView
     #else
-    // scene.model.ai = (strategist: GKMinmaxStrategist(), goFirst: true)
     (NSApplication.shared.keyWindow?.contentViewController as? ViewController)?.skView.presentScene(scene, transition: SKTransition.push(with: .up, duration: 1))
     #endif
 }

@@ -12,7 +12,11 @@ public class PHKScene: SKScene {
         GameEndedState(self)
         ])
 
-    public let model = PHKModel()
+    public private(set) lazy var model: PHKModel = {
+        ai?.gameModel = $0
+        print("wow, AI")
+        return $0
+    }(PHKModel())
     
     private(set) lazy var buttons: [SKShapeNode] = {
         return (0..<5).map {

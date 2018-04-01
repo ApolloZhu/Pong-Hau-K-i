@@ -1,12 +1,6 @@
 import GameplayKit
 
 public class PHKModel: NSObject {
-    public var ai: (strategist: GKStrategist, goFirst: Bool)? {
-        didSet {
-            ai?.strategist.gameModel = self
-        }
-    }
-
     public var board: [PHKPlayer] = [.p1, .p1, .no, .p2, .p2]
 
     public var currentPlayer: PHKPlayer = .no
@@ -32,7 +26,8 @@ extension PHKModel {
     }
 
     func isAI(_ player: PHKPlayer) -> Bool {
-        return player == .p1 && ai?.goFirst == true
-            || player == .p2 && ai?.goFirst == false
+        return ai != nil
+            && (player == .p1 && aiGoesFirst == true
+            || player == .p2 && aiGoesFirst == false)
     }
 }

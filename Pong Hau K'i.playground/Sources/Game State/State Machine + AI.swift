@@ -2,9 +2,7 @@ import GameplayKit
 
 extension GameState {
     func runAI() {
-        guard let model = model
-            , let ai = model.ai?.strategist
-            else { return }
+        guard let model = model, let ai = ai else { return }
         let move: GKGameModelUpdate?
         if let minMax = ai as? GKMinmaxStrategist {
             move = minMax.randomMove(for: model.currentPlayer,
