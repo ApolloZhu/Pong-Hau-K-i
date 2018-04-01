@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D15982070CCFD00F9DF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D15972070CCFD00F9DF9A /* AppDelegate.swift */; };
+		520D15A22070CD0600F9DF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520D15A12070CD0600F9DF9A /* Assets.xcassets */; };
+		520D15A52070CD0600F9DF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520D15A32070CD0600F9DF9A /* Main.storyboard */; };
+		520D15B02070CFA100F9DF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D15AF2070CFA100F9DF9A /* ViewController.swift */; };
+		520D15D22070D0A800F9DF9A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D15D12070D0A800F9DF9A /* Header.swift */; };
+		52A35B9B2070D14E00F21E09 /* PHKMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8C2070D13C00F21E09 /* PHKMove.swift */; };
+		52A35B9C2070D14E00F21E09 /* GameIdelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8D2070D13D00F21E09 /* GameIdelState.swift */; };
+		52A35B9D2070D14E00F21E09 /* PHKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8E2070D13E00F21E09 /* PHKScene.swift */; };
+		52A35B9E2070D14E00F21E09 /* GameNotStartedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B8F2070D14000F21E09 /* GameNotStartedState.swift */; };
+		52A35B9F2070D14E00F21E09 /* PHKPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B902070D14100F21E09 /* PHKPiece.swift */; };
+		52A35BA02070D14E00F21E09 /* GameSwapPieceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B912070D14200F21E09 /* GameSwapPieceState.swift */; };
+		52A35BA12070D14E00F21E09 /* GameEndedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B922070D14300F21E09 /* GameEndedState.swift */; };
+		52A35BA22070D14E00F21E09 /* PHKPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B932070D14400F21E09 /* PHKPlayer.swift */; };
+		52A35BA32070D14E00F21E09 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B942070D14600F21E09 /* GameState.swift */; };
+		52A35BA42070D14E00F21E09 /* GameInvalidMoveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */; };
+		52A35BA52070D14E00F21E09 /* GameStartNewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B962070D14900F21E09 /* GameStartNewState.swift */; };
+		52A35BA62070D14E00F21E09 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B972070D14A00F21E09 /* Colors.swift */; };
+		52A35BA72070D14E00F21E09 /* GameMoveValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */; };
+		52A35BA82070D14E00F21E09 /* GamePieceSelectedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */; };
+		52A35BA92070D14E00F21E09 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A35B9A2070D14C00F21E09 /* Dimensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520D15942070CCFD00F9DF9A /* Pong Hau K'i.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Hau K'i.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D15972070CCFD00F9DF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520D15A12070CD0600F9DF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520D15A42070CD0600F9DF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520D15A62070CD0600F9DF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520D15A72070CD0600F9DF9A /* Pong_Hau_K_i.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pong_Hau_K_i.entitlements; sourceTree = "<group>"; };
+		520D15AF2070CFA100F9DF9A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520D15D12070D0A800F9DF9A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		52A35B8C2070D13C00F21E09 /* PHKMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKMove.swift; sourceTree = "<group>"; };
+		52A35B8D2070D13D00F21E09 /* GameIdelState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameIdelState.swift; sourceTree = "<group>"; };
+		52A35B8E2070D13E00F21E09 /* PHKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKScene.swift; sourceTree = "<group>"; };
+		52A35B8F2070D14000F21E09 /* GameNotStartedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNotStartedState.swift; sourceTree = "<group>"; };
+		52A35B902070D14100F21E09 /* PHKPiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKPiece.swift; sourceTree = "<group>"; };
+		52A35B912070D14200F21E09 /* GameSwapPieceState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSwapPieceState.swift; sourceTree = "<group>"; };
+		52A35B922070D14300F21E09 /* GameEndedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEndedState.swift; sourceTree = "<group>"; };
+		52A35B932070D14400F21E09 /* PHKPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHKPlayer.swift; sourceTree = "<group>"; };
+		52A35B942070D14600F21E09 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInvalidMoveState.swift; sourceTree = "<group>"; };
+		52A35B962070D14900F21E09 /* GameStartNewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartNewState.swift; sourceTree = "<group>"; };
+		52A35B972070D14A00F21E09 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMoveValidationState.swift; sourceTree = "<group>"; };
+		52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePieceSelectedState.swift; sourceTree = "<group>"; };
+		52A35B9A2070D14C00F21E09 /* Dimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520D15912070CCFD00F9DF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520D158B2070CCFD00F9DF9A = {
+			isa = PBXGroup;
+			children = (
+				520D15962070CCFD00F9DF9A /* Pong Hau K'i */,
+				520D15952070CCFD00F9DF9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520D15952070CCFD00F9DF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520D15942070CCFD00F9DF9A /* Pong Hau K'i.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520D15962070CCFD00F9DF9A /* Pong Hau K'i */ = {
+			isa = PBXGroup;
+			children = (
+				52A35BAA2070D16000F21E09 /* Sources */,
+				520D15972070CCFD00F9DF9A /* AppDelegate.swift */,
+				520D15AF2070CFA100F9DF9A /* ViewController.swift */,
+				520D15A12070CD0600F9DF9A /* Assets.xcassets */,
+				520D15A32070CD0600F9DF9A /* Main.storyboard */,
+				520D15A62070CD0600F9DF9A /* Info.plist */,
+				520D15A72070CD0600F9DF9A /* Pong_Hau_K_i.entitlements */,
+			);
+			path = "Pong Hau K'i";
+			sourceTree = "<group>";
+		};
+		52A35BAA2070D16000F21E09 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				520D15D12070D0A800F9DF9A /* Header.swift */,
+				52A35B972070D14A00F21E09 /* Colors.swift */,
+				52A35B9A2070D14C00F21E09 /* Dimensions.swift */,
+				52A35B8C2070D13C00F21E09 /* PHKMove.swift */,
+				52A35B932070D14400F21E09 /* PHKPlayer.swift */,
+				52A35B922070D14300F21E09 /* GameEndedState.swift */,
+				52A35B8D2070D13D00F21E09 /* GameIdelState.swift */,
+				52A35B952070D14800F21E09 /* GameInvalidMoveState.swift */,
+				52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */,
+				52A35B8F2070D14000F21E09 /* GameNotStartedState.swift */,
+				52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */,
+				52A35B962070D14900F21E09 /* GameStartNewState.swift */,
+				52A35B942070D14600F21E09 /* GameState.swift */,
+				52A35B912070D14200F21E09 /* GameSwapPieceState.swift */,
+				52A35B902070D14100F21E09 /* PHKPiece.swift */,
+				52A35B8E2070D13E00F21E09 /* PHKScene.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520D15932070CCFD00F9DF9A /* Pong Hau K'i */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520D15AA2070CD0600F9DF9A /* Build configuration list for PBXNativeTarget "Pong Hau K'i" */;
+			buildPhases = (
+				520D15902070CCFD00F9DF9A /* Sources */,
+				520D15912070CCFD00F9DF9A /* Frameworks */,
+				520D15922070CCFD00F9DF9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pong Hau K'i";
+			productName = "Pong Hau K'i";
+			productReference = 520D15942070CCFD00F9DF9A /* Pong Hau K'i.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520D158C2070CCFD00F9DF9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					520D15932070CCFD00F9DF9A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 520D158F2070CCFD00F9DF9A /* Build configuration list for PBXProject "Pong Hau K'i" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520D158B2070CCFD00F9DF9A;
+			productRefGroup = 520D15952070CCFD00F9DF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520D15932070CCFD00F9DF9A /* Pong Hau K'i */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520D15922070CCFD00F9DF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D15A22070CD0600F9DF9A /* Assets.xcassets in Resources */,
+				520D15A52070CD0600F9DF9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520D15902070CCFD00F9DF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A35BA82070D14E00F21E09 /* GamePieceSelectedState.swift in Sources */,
+				52A35BA22070D14E00F21E09 /* PHKPlayer.swift in Sources */,
+				52A35BA62070D14E00F21E09 /* Colors.swift in Sources */,
+				52A35B9E2070D14E00F21E09 /* GameNotStartedState.swift in Sources */,
+				52A35B9C2070D14E00F21E09 /* GameIdelState.swift in Sources */,
+				52A35BA12070D14E00F21E09 /* GameEndedState.swift in Sources */,
+				52A35BA72070D14E00F21E09 /* GameMoveValidationState.swift in Sources */,
+				52A35B9F2070D14E00F21E09 /* PHKPiece.swift in Sources */,
+				52A35BA92070D14E00F21E09 /* Dimensions.swift in Sources */,
+				520D15B02070CFA100F9DF9A /* ViewController.swift in Sources */,
+				52A35BA02070D14E00F21E09 /* GameSwapPieceState.swift in Sources */,
+				520D15982070CCFD00F9DF9A /* AppDelegate.swift in Sources */,
+				52A35B9B2070D14E00F21E09 /* PHKMove.swift in Sources */,
+				52A35BA32070D14E00F21E09 /* GameState.swift in Sources */,
+				52A35B9D2070D14E00F21E09 /* PHKScene.swift in Sources */,
+				520D15D22070D0A800F9DF9A /* Header.swift in Sources */,
+				52A35BA42070D14E00F21E09 /* GameInvalidMoveState.swift in Sources */,
+				52A35BA52070D14E00F21E09 /* GameStartNewState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520D15A32070CD0600F9DF9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D15A42070CD0600F9DF9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520D15A82070CD0600F9DF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520D15A92070CD0600F9DF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		520D15AB2070CD0600F9DF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pong Hau K'i/Pong_Hau_K_i.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong Hau K'i/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Pong-Hau-K-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		520D15AC2070CD0600F9DF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pong Hau K'i/Pong_Hau_K_i.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong Hau K'i/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Pong-Hau-K-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520D158F2070CCFD00F9DF9A /* Build configuration list for PBXProject "Pong Hau K'i" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D15A82070CD0600F9DF9A /* Debug */,
+				520D15A92070CD0600F9DF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520D15AA2070CD0600F9DF9A /* Build configuration list for PBXNativeTarget "Pong Hau K'i" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D15AB2070CD0600F9DF9A /* Debug */,
+				520D15AC2070CD0600F9DF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520D158C2070CCFD00F9DF9A /* Project object */;
+}

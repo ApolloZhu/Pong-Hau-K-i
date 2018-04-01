@@ -1,0 +1,21 @@
+> In what ways have you considered sharing your coding knowledge and enthusiasm for computer science with others?
+
+When I was learning from Apple engineers last year at WWDC, I was elected as the president of the computer science club at Oakton High School. This year, I tried many thing new to include a wider range of audiences.
+
+When the day WWDC scholarship info was made available, I immediately contacted the CS teacher at my school to explain why this is a wonderful opportunity to all students and requested to share this info and my own experience with all the CS classes. I spent that night preparing for the presentation, and wrote another detailed blog post to ensure other students can always refer to it.
+
+With heavy workload than I estimated, finding time to create new contents became my hardest challenge.
+
+Then I wrote a brief summary of what his scholarship is about and posted on my blog to share with my classmates, as well as a Chinese version to share on bilibili, the Z generation 
+
+We could learn from each other, therefore spark more intriguing ideas.
+
+, I’m, and we are trying our best to 
+
+We’ll be volunteering at the hours of code on April 18th at Rachel Carson Middle School
+
+I attend all Playground sessions and labs to best u
+
+I could not forgot... I’m still trying to translate, however, the heavy work load force me to 
+
+One could not imagine how excited I was when one girl who never had any programming experience before demonstrated a huge interest in learning Swift and start to write her first Playground. 

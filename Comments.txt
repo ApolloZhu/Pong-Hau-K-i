@@ -1,0 +1,9 @@
+> Is there anything else you would like us to know?
+
+Attending the WWDC conference last year really made my voices stronger. I can't invite that many students to experience how programming can change their and others life without my experience at San Jose last year. Please let me thank you all for hosting this engaging event and generously providing us students such a precious scholarship.
+
+I clearly understand this is almost impossible, but at least I wish as many Oakton High School students could go and learn together. Not only will this be an honor for us, but also will their stories encourage more students of all ages on the east coast. As I mentioned, I only came to America three years ago, the audiences I could reach here is far less comparing to their friends and relatives. Only our voices together could spread the words the most effectively.
+
+Lastly, I'm really looking forward to learning about all the improvements and inventions you all have been working very hard on. I thought just watching the session videos is adequate, however, having conversations with Apple Engineers at labs really brings it to the next level. I can't wait to discuss with you all to see how I can build better Swift apps/playgrounds. Especially, since my final project for Advanced Computer Science is hand gesture recognition through camera + ARKit, integrating the unified UI elements, if that is to be released, could enable me to build the most empowering app. Of course, that is if I'd be lucky enough to be accepted.
+
+Wish we could meet in San Jose this June again.
