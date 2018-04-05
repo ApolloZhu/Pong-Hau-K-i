@@ -61,6 +61,7 @@
 		52A35B982070D14B00F21E09 /* GameMoveValidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMoveValidationState.swift; sourceTree = "<group>"; };
 		52A35B992070D14C00F21E09 /* GamePieceSelectedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePieceSelectedState.swift; sourceTree = "<group>"; };
 		52A35B9A2070D14C00F21E09 /* Dimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
+		52D1FC6C20765EA400EAB2C0 /* Pong Hau K'i.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Pong Hau K'i.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		520D158B2070CCFD00F9DF9A = {
 			isa = PBXGroup;
 			children = (
+				52D1FC6C20765EA400EAB2C0 /* Pong Hau K'i.playground */,
 				520D15962070CCFD00F9DF9A /* Pong Hau K'i */,
 				520D15952070CCFD00F9DF9A /* Products */,
 			);

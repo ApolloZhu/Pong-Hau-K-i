@@ -8,7 +8,6 @@ let strategist = GKMinmaxStrategist()
 //: - Experiment:
 //: Try to change this 1 to 5 and see how it gets smarter:
 strategist.maxLookAheadDepth = 1
-
 //: Assign our strategist as the AI player:
 aiGoesFirst = true
 ai = strategist

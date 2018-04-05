@@ -1,6 +1,6 @@
 //: [Previous: Minmax strategy](@previous)
 
-//: In addition to the two strategists `GameplayKit`` provides, we can write our own artificial-intelligent player.
+//: In addition to the two strategists `GameplayKit` provides, we can write our own artificial-intelligent player.
 import GameplayKit
 //: Let's first start by defining our own AI class:
 class YourOwnStrategist: NSObject,

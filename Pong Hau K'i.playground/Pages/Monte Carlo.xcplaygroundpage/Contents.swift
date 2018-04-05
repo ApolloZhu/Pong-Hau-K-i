@@ -9,5 +9,6 @@ let strategist = GKMonteCarloStrategist()
 //: `true` means the AI player goes first;
 //: `false` means you go first.
 aiGoesFirst = true
+ai = strategist
 newGame()
 //: [Next: A better AI](@next)
