@@ -1,4 +1,5 @@
 //: [Previous: How to play the game](@previous)
+
 //: This is where AI strategies are implemented:
 import GameplayKit
 //: Let's first look at this implementation.
